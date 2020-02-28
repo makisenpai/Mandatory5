@@ -11,13 +11,13 @@ Customer customer;
     }
 
     public void checkOut(){
-        Customer customer = Checkout.q.remove();
+
         this.setTime(this.getTime() + customer.getCheckoutDuration());
     }
 
     @Override
     public Event happen() {
-        checkOut();
+        customer = Checkout.removeFromQueue();
         return new EndShoppingEvent(customer);
     }
 }

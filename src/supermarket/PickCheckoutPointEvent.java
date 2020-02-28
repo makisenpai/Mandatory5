@@ -36,7 +36,7 @@ public class PickCheckoutPointEvent extends Event {
 
     @Override
     public Event happen() {
-        Checkout.q.add(customer);
+        Checkout.addToQueue(customer);
         return new CheckoutEvent(cTime(), customer);
     }
 }

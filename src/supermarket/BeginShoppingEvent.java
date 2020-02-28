@@ -11,7 +11,7 @@ import eventsim.Event;
 /**
  * A customer enters the shop
  *
- * @author evenal
+ * @author Martin
  */
 public class BeginShoppingEvent extends Event {
     Customer customer;

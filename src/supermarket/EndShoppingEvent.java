@@ -34,8 +34,8 @@ public class EndShoppingEvent extends Event {
 
     @Override
     public String toString() {
-        return "EndShoppingEvent{" + getTime() + " cust=" + customer.name
-                + " " + customer.shoppingDuration + '}';
+        return ": Shopping ended for " + customer.name + " at time " + getTime()
+                + ". Shopping duration: " + customer.shoppingDuration ;
     }
 
 }

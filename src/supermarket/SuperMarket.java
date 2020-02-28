@@ -33,7 +33,6 @@ public class SuperMarket {
     public SuperMarket() {
         checkouts = new Checkout[NUM_CHECKOUTS];
 
-
 /**
  * For loop that puts object of Checkout into Checkouts[]
  */
@@ -56,5 +55,6 @@ public class SuperMarket {
         EventSim sim = EventSim.getInstance();
         sim.setup(init);
         sim.run();
+
     }
 }
