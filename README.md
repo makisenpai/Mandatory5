@@ -1,9 +1,9 @@
-# Mandatory2
- IS-211-1 20V Algoritmer og datastrukturer
+IS-ALGORITHEM
+
+
+
  
- Kode for mandatory 2
- 
- Oppgave dec. 
+Oppgave dec. 
  
  Mandatory 5 : Discrete event simulation
 Discrete event simulation models a domain as a sequence of events that instantaneously changes the state of the domain. This differs from continuous simulation, which is used in ship and flight simulators, and a large number of games.
